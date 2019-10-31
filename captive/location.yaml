@@ -3,11 +3,10 @@ lol: 'haha'
 app_config:
   DEBUG: true
 
-redis:
+minio:
   host: localhost
-  port: 6379
-  db: 0
-  passwd: null
-  decode: true
+  access_key: null
+  secret_key: null
+  secure: false
 
 
