@@ -1,0 +1,10 @@
+FOO: bar
+
+DATABASES:
+  default:
+    ENGINE: django.db.backends.postgresql
+    NAME: tenantman
+    USER: docker
+    PASSWORD: docker
+    HOST: postgres
+    PORT: 5432

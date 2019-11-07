@@ -9,4 +9,12 @@ minio:
   secret_key: null
   secure: false
 
+redis:
+  host: localhost
+  port: 6379
+  db: 0
+  passwd: null
+  decode: true
+
+
 
